@@ -1,0 +1,89 @@
+/*Sven Gustafsson s205035981*/
+
+body
+{
+    font-family: Calibri;
+    
+    background-color:#E7DEB8;
+}
+li {
+    display: inline;
+    list-style: none;
+}
+
+img.left {
+    float: left;
+    padding: 0.5em;
+    width: 200px;
+}
+
+img.right {
+    float: right;
+    padding: 0.5em;
+    width: 200px;
+}
+
+#Header {
+/*    display: inline;*/
+    background:#84732D;
+}
+
+#Header h1 {
+    color: #E7DEB8;
+    padding-left: 2em;
+    text-align: center;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#left {
+    float: left;
+    width: 30%;
+    background: white;
+    padding-right: 1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#right {
+    float:right;
+    width: 55%;
+    background: white;
+    padding-left: 1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div {
+    overflow:hidden;
+}
+
+#nav {
+    background: black;
+}
+
+a {
+    color: white;
+    padding: 0.3em 0.5em;
+}
+
+#bottom {
+    clear: both;
+    background:#84732D;
+}
+
+#footer {
+    clear: both;
+    background: black;
+}
+
+#footer p {
+    color: white;
+/*    padding-left: 2em;*/
+    text-align: center;
+    font-style: italic;
+}
