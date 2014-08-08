@@ -6,10 +6,6 @@ body
     
     background-color:#E7DEB8;
 }
-li {
-    display: inline;
-    list-style: none;
-}
 
 img.left {
     float: left;
@@ -86,4 +82,18 @@ a {
 /*    padding-left: 2em;*/
     text-align: center;
     font-style: italic;
+}
+
+ul li{
+	display:inline;
+
+}
+
+ol #num li{
+/*	display:block;*/
+/*	list-style-type:decimal-leading-zero;*/
+}
+
+ol #num {
+/*	list-style-type:decimal-leading-zero;*/
 }
